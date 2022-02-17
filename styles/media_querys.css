@@ -1,0 +1,117 @@
+/* medias querys */
+
+@media screen and (max-width: 1200px) {
+    #main{
+        padding: 0px 150px;
+    }
+    .card_details{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    #main{
+        padding: 0px 100px;
+    }
+}
+@media screen and (max-width: 800px){
+    .container_cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .text_title_section::after{
+        width: 100%;
+        bottom: 10px;
+        left: 0;
+    }
+    #contactos .container_description_section{
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    #main{
+        padding: 0px 50px;
+    }
+    .container_lateral{
+        display: none;
+    }
+    .container_links_footer{
+        display: block;
+    }
+
+    /* css header */
+    .container_navegation{
+        width: 100%;
+        min-width: 200px;
+        max-width: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+
+        backdrop-filter: blur(10px);
+        transform: translateX(100%);
+        transition: .3s linear;
+    }
+    .active_button_menu{
+        transform: translateX(0%);
+    }
+    .menu ul{
+        width: 50%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-left: auto;
+
+        background-color: var(--color-2);
+    }
+    .menu ul li{
+        margin: 25px 0px;
+    }
+    .item_menu_link::before{
+        display: block;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 3px;
+    }
+    .container_button_menu_responsive{
+        display: block;
+    }
+}
+@media screen and (max-width: 650px) {
+    .container_description_section{
+        grid-template-columns: 1fr;
+    }
+
+    .conteiner_card_proyect{
+        grid-template-columns: 1fr;
+    }
+    .img_effect_proyect{
+        width: 100%;
+    }
+    .description_card_proyect{
+        margin-top: 10px;
+    }
+    .conteiner_card_proyect:nth-child(odd) .img_card_proyect{
+        left: 0px;
+    }
+    .conteiner_card_proyect:nth-child(even) .img_card_proyect{
+        order: 0;
+        left: 0px;
+    }
+    
+    .conteiner_card_proyect:nth-child(odd) .description_card_proyect{
+        left: 0px;
+    }
+    .conteiner_card_proyect:nth-child(even) .description_card_proyect{
+        left: 0px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .container_cards{
+        grid-template-columns: 1fr;
+    }
+    .menu ul{
+        width: 100%;
+    }
+}
