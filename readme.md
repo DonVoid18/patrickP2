@@ -12,7 +12,7 @@ This project is built from scratch with basic web technologies like html, css an
     <a href="https://github.com/DonVoid18/angelopatrick" target="_blank">v1.0</a>
 </p>
 <p align="center">
-  <a href="https://donvoid18.github.io/patrick_portfolio2/" target="_blank">
+  <a href="https://donvoid18.github.io/patrickP2/" target="_blank">
     <img src="images/image_portafolio_web.png" alt="Portafolio Web" title="Portafolio Web" />
   </a>
 </p>
