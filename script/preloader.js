@@ -15,6 +15,11 @@ window.addEventListener("load",function(){
                 distance: '10px',
                 origin: 'top'
             }
+            let logo = {
+                delay: 350,
+                distance: '10px',
+                origin: 'top'
+            }
             let laterales = {
                 delay: 2000
             }
@@ -62,13 +67,13 @@ window.addEventListener("load",function(){
             sr.reveal('.text_footer_author', {
                 delay: 1000,
                 duration: 1000,
-                distance: '50px',
-                origin: 'bottom',
+                distance: '20px',
+                origin: 'top',
             });
-            sr.reveal('.button_menu',items_header)
-            sr.reveal('.item_link_footer', items_header)
+            sr.reveal('.item_link_footer', items_header);
             sr.reveal(".item_menu", items_header);
-            sr.reveal(".container_logo", items_header);
+            sr.reveal('.button_menu',logo);
+            sr.reveal(".container_logo", logo);
             sr.reveal(".container_lateral", laterales);
 
         }, 500);

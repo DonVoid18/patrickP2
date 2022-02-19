@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 }
 /* solución de animaciones */
 .greeting_profile, .name_profile, .description_profile, .container_section_information, .conteiner_card_proyect, .container_subtitle_cards, .proyect_card,
-.item_menu, .container_logo, .container_lateral, .item_link_footer, .text_footer_author, .button_menu{
+.item_menu, .container_logo, .container_lateral, .button_menu, .item_link_footer{
     visibility: hidden;
 }
 
