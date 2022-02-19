@@ -14,7 +14,7 @@ boton_menu.addEventListener("click",function(){
         header.setAttribute("style","backdrop-filter:none");
         status_button = false;
     }else{
-        body.removeAttribute("style","overflow: hidden;");
+        body.setAttribute("style","overflow: visible;");
         header.setAttribute("style","backdrop-filter:blur(10px)");
         status_button = true;
     }

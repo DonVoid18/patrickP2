@@ -28,6 +28,7 @@ body{
     counter-reset: section;
     
     background-color: var(--color-5);
+    overflow: hidden;
 }
 body::-webkit-scrollbar {
     width: 7px;               /* width of the entire scrollbar */
@@ -41,6 +42,12 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--color-1);    /* color of the scroll thumb */
     border-radius: var(--border-radius-1);       /* roundness of the scroll thumb */
 }
+/* solución de animaciones */
+.greeting_profile, .name_profile, .description_profile, .container_section_information, .conteiner_card_proyect, .container_subtitle_cards, .proyect_card,
+.item_menu, .container_logo, .container_lateral, .item_link_footer, .text_footer_author, .button_menu{
+    visibility: hidden;
+}
+
 .header{
     width: 100%;
     padding: 15px 30px;
@@ -191,5 +198,4 @@ body::-webkit-scrollbar-thumb {
 .ocultar_box_shadow{
     box-shadow: none;
 }
-
 
