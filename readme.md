@@ -18,7 +18,7 @@ This project is built from scratch with basic web technologies like html, css an
 </p>
 <p align="left">
     &#128073; This project has an explanation video &#127916;
-    <a href="https://github.com/DonVoid18/angelopatrick" target="_blank">PortfolioWeb</a>
+    <a href="https://youtu.be/8b0Qzp_9d40" target="_blank">PortfolioWeb</a>
 </p>
 <p align="left">
     &#128073; My youtube channel &#127909;
