@@ -78,6 +78,7 @@
     gap: 10px;
 
     color: var(--text-color-2);
+    line-height: var(--height-text);
 }
 .img_effect{
     width: 250px;
@@ -163,6 +164,7 @@
 }
 #experiencia .text_section ul li p{
     display: flex;
+    line-height: var(--height-text);
 }
 #experiencia .text_section ul li p::before{
     content: "▹";
@@ -407,6 +409,7 @@
     grid-template-columns: 1fr;
     width: 80%;
     margin: 0 auto;
+    line-height: var(--height-text);
 }
 .gif_animado{
     width: 250px;
