@@ -111,7 +111,7 @@ body::-webkit-scrollbar-thumb {
 }
 /* css del logo */
 .container_logo{
-    width: 50px;
+    width: 55px;
     min-width: 50px;
     z-index: 1;
 }
