@@ -6,10 +6,10 @@
     box-sizing: border-box;
 }
 :root{
-    --color-1: #eb233c;
-    --color-2: #eb233a2a;
+    --color-1: #70e000;
+    --color-2: #15141a3d;
     --color-3: black;
-    --color-4: #eb233a1a;
+    --color-4: #15141a3d;
     --color-5: #1c1a32;
 
     --text-color-1: white;
@@ -111,7 +111,7 @@ body::-webkit-scrollbar-thumb {
 }
 /* css del logo */
 .container_logo{
-    width: 55px;
+    width: 70px;
     min-width: 50px;
     z-index: 1;
 }
