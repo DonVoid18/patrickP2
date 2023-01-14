@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/ANGELO PATRICK-modified.png" alt="Logo" title="Logo" width="100px">
+  <img src="images/logo1Page.png" alt="Logo" title="Logo" width="100px">
 </div>
 <h1 align="center">
   patrick_portfolio v2.0
@@ -13,7 +13,7 @@ This project is built from scratch with basic web technologies like html, css an
 </p>
 <p align="center">
   <a href="https://donvoid18.github.io/patrickP2/" target="_blank">
-    <img src="images/image_portafolio_web.png" alt="Portafolio Web" title="Portafolio Web" />
+    <img src="images/page_view.png" alt="Portafolio Web" title="Portafolio Web" />
   </a>
 </p>
 <p align="left">
@@ -22,7 +22,7 @@ This project is built from scratch with basic web technologies like html, css an
 </p>
 <p align="left">
     &#128073; My youtube channel &#127909;
-    <a href="https://www.youtube.com/c/angelox2Patrick" target="_blank">angelo x2</a>
+    <a href="https://www.youtube.com/c/angelox2Patrick" target="_blank">Programador 347</a>
 </p>
 <p align="left">
     &#128073; Página de facebook &#128153;
