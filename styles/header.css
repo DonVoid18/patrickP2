@@ -6,14 +6,14 @@
     box-sizing: border-box;
 }
 :root{
-    --color-1: #70e000;
+    --color-1: #4361ee;
     --color-2: #15141a3d;
     --color-3: black;
     --color-4: #15141a3d;
-    --color-5: #1c1a32;
+    --color-5: #fff8f0;
 
-    --text-color-1: white;
-    --text-color-2: #dbdfe9;
+    --text-color-1: black;
+    --text-color-2: #black;
     --border-radius-1: 5px;
     --height-text: 170%;
 }
